@@ -1,0 +1,50 @@
+body {
+    background: #262626;
+}
+
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.button {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background: tomato;
+    width: 230px;
+    color: #fff;
+    font-family: baloo;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+.label {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    top: 0%;
+    transition: top 0.5s;
+    width: 100%;
+}
+
+
+.button:hover .label {
+    top: -100%;
+}
+
+
+
+
+
+
+
+
